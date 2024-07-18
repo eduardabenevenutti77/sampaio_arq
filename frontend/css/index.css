@@ -39,6 +39,12 @@ body {
     font-family: "Koulen", sans-serif;
     font-size: 24px;
 }
+.sub-title {
+    font-family: "paprika";
+    font-size: 14px;
+    margin-left: 14px;
+    margin-top: 0;
+}
 @font-face {
     font-family: "Koulen";
     src: url('../css/Koulen-Regular.ttf');
@@ -46,4 +52,8 @@ body {
 @font-face {
     font-family: "agbalmo";
     src: url('../css/Dosis-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: "paprika";
+    src: url('../css/Paprika-Regular.ttf') format('truetype');
 }
