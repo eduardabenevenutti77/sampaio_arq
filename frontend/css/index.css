@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #eae8e8;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Ajustado para justificar espaço entre logo e links */
+    align-items: center; /* Para centralizar verticalmente os itens */
+    padding: 20px;
+}
+#logo {
+    font-family: "Koulen", sans-serif;
+    font-size: 24px;
+}
+.links {
+    display: flex; /* Usar flex para distribuir os links */
+    gap: 20px; /* Espaçamento entre os links */
+}
+.elementos {
+    font-family: "agbalmo";
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+}
+.container {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.group-title {
+    margin-left: 10px;
+}
+.sub-logo {
+    font-family: "Koulen", sans-serif;
+    font-size: 24px;
+}
+@font-face {
+    font-family: "Koulen";
+    src: url('../css/Koulen-Regular.ttf');
+}
+@font-face {
+    font-family: "agbalmo";
+    src: url('../css/Dosis-VariableFont_wght.ttf') format('truetype');
+}
