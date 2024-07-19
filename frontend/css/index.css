@@ -46,6 +46,18 @@ body {
     font-weight: 500;
     margin-top: 0;
 }
+.group-information {
+    width: 100%;
+    max-width: 650px;
+}
+.group-information .information {
+    font-family: "agbalmo";
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 25px;
+    margin-left: 140px;
+}
 @font-face {
     font-family: "Koulen";
     src: url('../css/Koulen-Regular.ttf');
