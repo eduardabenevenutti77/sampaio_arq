@@ -33,7 +33,8 @@ body {
     margin-left: 50px;
 }
 .group-title {
-    margin-left: 10px;
+    margin-top: 80px;
+    margin-left: 50px;
 }
 .sub-logo {
     font-family: "Koulen", sans-serif;
@@ -42,6 +43,7 @@ body {
 .sub-title {
     font-family: "paprika";
     font-size: 12px;
+    font-weight: 500;
     margin-top: 0;
 }
 @font-face {
