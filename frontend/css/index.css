@@ -1,72 +1,130 @@
+/* Reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+/* Body */
 body {
-    background-color: #eae8e8;
-}
-.navbar {
-    display: flex;
-    justify-content: space-between; /* Ajustado para justificar espaço entre logo e links */
-    align-items: center; /* Para centralizar verticalmente os itens */
+    background-color: #f7f7f7;
+    font-family: "agbalmo", sans-serif;
+    line-height: 1.6;
+    color: #333;
     padding: 20px;
 }
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #83B3A8;
+    color: #fff;
+    border-radius: 5px;
+}
+
 #logo {
     font-family: "Koulen", sans-serif;
-    font-size: 24px;
+    font-size: 28px;
+    color: black;
 }
+
 .links {
-    display: flex; /* Usar flex para distribuir os links */
-    gap: 20px; /* Espaçamento entre os links */
+    display: flex;
+    gap: 25px;
 }
+
 .elementos {
     font-family: "agbalmo";
     font-size: 16px;
     font-weight: 500;
-    display: flex;
-    justify-content: center;
-    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
 }
+
+.elementos:hover {
+    color: #aaa;
+}
+
+/* Container */
 .container {
-    margin-top: 50px;
-    margin-left: 50px;
+    margin: 40px auto;
+    max-width: 1000px;
 }
+
+/* Titles */
 .group-title {
-    margin-top: 80px;
-    margin-left: 50px;
+    font-family: "Koulen", sans-serif;
+    font-size: 36px;
+    color: #222;
+    margin-bottom: 0px;
+    text-align: center;
 }
+
 .sub-logo {
     font-family: "Koulen", sans-serif;
     font-size: 24px;
+    color: #222;
 }
+
 .sub-title {
-    font-family: "paprika";
-    font-size: 12px;
+    font-family: "Paprika", sans-serif;
+    font-size: 14px;
     font-weight: 500;
     margin-top: 0;
+    margin-bottom: 0;
+    color: #222;
+    text-align: center;
 }
+
+/* Information Group */
 .group-information {
-    width: 100%;
-    max-width: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    /* margin: 20px 0; */
+    transition: box-shadow 0.3s ease;
 }
-.group-information .information {
+
+.group-information:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.information {
     font-family: "agbalmo";
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     text-align: justify;
-    margin-top: 25px;
-    margin-left: 140px;
+    width: 70%;
+    line-height: 1.8;
+    color: #222;
 }
+/* Fonts */
 @font-face {
     font-family: "Koulen";
     src: url('../css/Koulen-Regular.ttf');
 }
+
+@font-face {
+    font-family: "Dosis";
+    src: url('../css/Dosis-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Paprika";
+    src: url('../css/Paprika-Regular.ttf') format('truetype');
+}
+
+
+
 @font-face {
     font-family: "agbalmo";
     src: url('../css/Dosis-VariableFont_wght.ttf') format('truetype');
-}
-@font-face {
-    font-family: "paprika";
-    src: url('../css/Paprika-Regular.ttf') format('truetype');
 }
