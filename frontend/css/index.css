@@ -116,20 +116,42 @@ body {
     font-weight: 500;
 }
 .line {
-    width: 500px;
-    height: 5px;
+    width: 65%;
+    height: 3px;
     border: 1px solid #83B3A8;
     color: #83B3A8;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: center;
+    background-color: #83B3A8;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* margin: 20px 0; */
+    transition: box-shadow 0.3s ease;
+}
+.line:hover {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
 }
 .gradute-title {
     font-family: "Koulen", sans-serif;
     font-size: 24px;
     color: #222;
     text-align: right;
+}
+.university-name {
+    font-family: "agbalmo";
+    font-size: 20px;
+    font-weight: 500;
+}
+.display-university {
+    width: 340px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.university, #date {
+    font-family: "agbalmo";
+    font-size: 16px;
+    font-weight: 700;
 }
 @font-face {
     font-family: "Koulen";
