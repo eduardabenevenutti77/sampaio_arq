@@ -1,11 +1,8 @@
-/* Reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-/* Body */
 body {
     background-color: #f7f7f7;
     font-family: "agbalmo", sans-serif;
@@ -13,8 +10,6 @@ body {
     color: #333;
     padding: 20px;
 }
-
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -24,18 +19,15 @@ body {
     color: #fff;
     border-radius: 5px;
 }
-
 #logo {
     font-family: "Koulen", sans-serif;
     font-size: 28px;
     color: black;
 }
-
 .links {
     display: flex;
     gap: 25px;
 }
-
 .elementos {
     font-family: "agbalmo";
     font-size: 16px;
@@ -44,18 +36,13 @@ body {
     color: black;
     transition: color 0.3s ease;
 }
-
 .elementos:hover {
     color: #aaa;
 }
-
-/* Container */
 .container {
     margin: 40px auto;
     max-width: 1000px;
 }
-
-/* Titles */
 .group-title {
     font-family: "Koulen", sans-serif;
     font-size: 36px;
@@ -63,13 +50,11 @@ body {
     margin-bottom: 0px;
     text-align: center;
 }
-
 .sub-logo {
     font-family: "Koulen", sans-serif;
     font-size: 24px;
     color: #222;
 }
-
 .sub-title {
     font-family: "Paprika", sans-serif;
     font-size: 14px;
@@ -79,8 +64,6 @@ body {
     color: #222;
     text-align: center;
 }
-
-/* Information Group */
 .group-information {
     display: flex;
     justify-content: space-between;
@@ -92,11 +75,9 @@ body {
     /* margin: 20px 0; */
     transition: box-shadow 0.3s ease;
 }
-
 .group-information:hover {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
-
 .information {
     font-family: "agbalmo";
     font-size: 18px;
@@ -106,24 +87,62 @@ body {
     line-height: 1.8;
     color: #222;
 }
-/* Fonts */
+.byMe {
+    margin-top: 50px;
+}
+.byMe-title {
+    font-family: "Koulen", sans-serif;
+    font-size: 24px;
+    color: #222;
+}
+.byMe-info {
+    display: flex;
+    align-items: center;
+}
+.icon-picture {
+    margin-right: 20px;
+    width: 40%; 
+    height: 10%;
+    margin-top: 15px;
+    border-radius: 10%;
+    border-bottom-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+.info {
+    flex: 1;
+    margin-left: 25px;
+    font-family: "agbalmo";
+    font-size: 18px;
+    font-weight: 500;
+}
+.line {
+    width: 500px;
+    height: 5px;
+    border: 1px solid #83B3A8;
+    color: #83B3A8;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.gradute-title {
+    font-family: "Koulen", sans-serif;
+    font-size: 24px;
+    color: #222;
+    text-align: right;
+}
 @font-face {
     font-family: "Koulen";
     src: url('../css/Koulen-Regular.ttf');
 }
-
 @font-face {
     font-family: "Dosis";
     src: url('../css/Dosis-VariableFont_wght.ttf') format('truetype');
 }
-
 @font-face {
     font-family: "Paprika";
     src: url('../css/Paprika-Regular.ttf') format('truetype');
 }
-
-
-
 @font-face {
     font-family: "agbalmo";
     src: url('../css/Dosis-VariableFont_wght.ttf') format('truetype');
