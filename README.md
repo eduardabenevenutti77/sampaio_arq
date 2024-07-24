@@ -6,7 +6,6 @@ Bem-vindo ao repositório da Sampaio Arquitetura. Este projeto foi desenvolvido 
 ## Índice
 
 - [Visão Geral](#visão-geral)
-- [Demonstração](#demonstração)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Licença](#licença)
 - [Autores](#autores)
@@ -21,15 +20,12 @@ Nossa landing page foi projetada para fornecer uma experiência de usuário exce
 - **Depoimentos**: Feedback de clientes satisfeitos, reforçando nossa credibilidade.
 - **Contato**: Informações de contato e endereço de encontro da Sampaio Arquitetura.
 
-## Demonstração
-
-Confira a [protótipos de telas](https://example.com) da Sampaio Arquitetura.
-
 ## Tecnologias Utilizadas
 
-- **React**
-- **Vite**
-- **React-Bootstrap**
+- **HTML**
+- **CSS**
+- **JS**
+- **Github**
 - **Figma** 
 
 ## Licença
