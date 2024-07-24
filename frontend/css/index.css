@@ -10,6 +10,15 @@ body {
     color: #333;
     padding: 20px;
 }
+strong {
+    font-weight: 800;
+    color: #83B3A8;
+}
+#courses {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 50px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -153,6 +162,51 @@ body {
     font-size: 16px;
     font-weight: 700;
 }
+.course {
+    padding-top: 25px;
+    font-family: "agbalmo";
+    font-size: 16px;
+    font-weight: 700;
+}
+.display-course {
+    width: 380px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.display-course-revit {
+    width: 390px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.course-name {
+    font-family: "agbalmo";
+    font-size: 18px;
+    font-weight: 500;
+}
+.course-name:hover {
+    color: #83B3A8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#course-name {
+    font-family: "agbalmo";
+    font-size: 14px;
+    font-weight: 700;
+}
+.projects {
+    margin-top: 50px;
+}
+.project-title {
+    font-family: "Koulen", sans-serif;
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+}
+.display-project {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
 @font-face {
     font-family: "Koulen";
     src: url('../css/Koulen-Regular.ttf');
